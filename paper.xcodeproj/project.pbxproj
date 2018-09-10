@@ -16,6 +16,10 @@
 		FABDA75D2141DCC300EC6778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABDA75B2141DCC300EC6778 /* LaunchScreen.storyboard */; };
 		FABDA76B2141E0FC00EC6778 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FABDA76A2141E0FC00EC6778 /* GoogleService-Info.plist */; };
 		FABDA76D2141F1E100EC6778 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA76C2141F1E100EC6778 /* DataService.swift */; };
+		FAC44B332146B70C006E253E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC44B322146B70C006E253E /* LoginVC.swift */; };
+		FAC44B352146B763006E253E /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC44B342146B763006E253E /* AuthVC.swift */; };
+		FAC44B372146B856006E253E /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC44B362146B856006E253E /* InsetTextField.swift */; };
+		FAC44B392146C757006E253E /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC44B382146C757006E253E /* ShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		FABDA75E2141DCC300EC6778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FABDA76A2141E0FC00EC6778 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FABDA76C2141F1E100EC6778 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		FAC44B322146B70C006E253E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FAC44B342146B763006E253E /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		FAC44B362146B856006E253E /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		FAC44B382146C757006E253E /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,8 @@
 			children = (
 				FABDA7542141DCB500EC6778 /* SecondViewController.swift */,
 				FABDA7522141DCB500EC6778 /* FirstViewController.swift */,
+				FAC44B322146B70C006E253E /* LoginVC.swift */,
+				FAC44B342146B763006E253E /* AuthVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -111,6 +121,8 @@
 		FABDA7662141DDED00EC6778 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FAC44B362146B856006E253E /* InsetTextField.swift */,
+				FAC44B382146C757006E253E /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -256,9 +268,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC44B352146B763006E253E /* AuthVC.swift in Sources */,
 				FABDA7552141DCB500EC6778 /* SecondViewController.swift in Sources */,
+				FAC44B332146B70C006E253E /* LoginVC.swift in Sources */,
 				FABDA7512141DCB400EC6778 /* AppDelegate.swift in Sources */,
+				FAC44B392146C757006E253E /* ShadowView.swift in Sources */,
 				FABDA7532141DCB500EC6778 /* FirstViewController.swift in Sources */,
+				FAC44B372146B856006E253E /* InsetTextField.swift in Sources */,
 				FABDA76D2141F1E100EC6778 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
